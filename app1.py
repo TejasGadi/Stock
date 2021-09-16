@@ -37,7 +37,7 @@ visulizer=st.sidebar.selectbox("StockGrade Visualizer",["None","Candlestick","Bo
 if comp=="Nestle":
     nestle = open("Nestle_predictor.pkl", "rb")
     model = pickle.load(nestle)
-    data = pd.read_csv("C://Users//User//Desktop//Capstone 2//NESTLEIND.csv")
+    data = pd.read_csv("C://Users//rvgad//OneDrive//Desktop//Tejas//Stock//NESTLEIND.csv")
 
     corr_mat = data.corr()
 
@@ -179,7 +179,7 @@ if comp=="Nestle":
 if comp=='Adani':
     adani = open("Adani_predictor.pkl", "rb")
     model = pickle.load(adani)
-    data = pd.read_csv("C://Users//User//Desktop//Capstone 2//ADANIPORTS.NS.csv")
+    data = pd.read_csv("C://Users//rvgad//OneDrive//Desktop//Tejas//Stock//ADANIPORTS.NS.csv")
 
     corr_mat = data.corr()
 
